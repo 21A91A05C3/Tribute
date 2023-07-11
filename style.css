@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@700&family=Brygada+1918:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@700&family=Brygada+1918:ital@1&family=Ysabeau+SC:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@700&family=Brygada+1918:ital@1&family=Fasthand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@700&family=Brygada+1918:ital@1&family=Dancing+Script&family=Fasthand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box ;
+}
+.container{
+    height:100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: linear-gradient(rgb(70, 95, 122,0.5),rgb(215, 180, 114));
+    border: none;
+    outline: none;
+} 
+.tt
+{
+    height: 10%;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border-radius: 18px;
+}
+strong{
+    font-weight: 600;
+}
+.tt h1{
+    font-style: italic;
+    color: yellow;
+    font-size: 80px;
+}
+.top{
+    height: 30%;
+    width: 96%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.t1{
+    height: 100%;
+    width: 100%; 
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    text-align: justify;
+}
+.t2{
+    width: 100%;
+    height: 100%;
+    border-radius:10px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.t1 strong{
+    padding-left: 8px;
+    font-family: 'Brygada 1918', serif;
+    font-weight: 300px;
+    font-size: 22px;
+}
+.t1 p{
+    font-size: 21px;
+    padding-left: 18px;
+    font-family: 'Brygada 1918', serif;
+}
+.t2 img{
+    width: 50%;
+    height: 100%;
+    border-radius: 10px;
+}
+.middle{
+    margin-top: 10px;
+    height: 40%;
+    width: 94.5%;
+}
+.middle p{
+    font-family: 'Fasthand', cursive;
+    font-size: 27px;
+    font-weight: 500;
+    padding-left:2px ;
+    color:white;
+}
+.scr{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.scr h5{
+    color:navy;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: 'Kalam', cursive;
+    /* font-family: 'Agdasima', sans-serif; */
+}
+.scr img{
+    height: 65px;
+    width: 35px;
+}
+.bottom{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+}
+.b1{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.b1 img{
+    height: 97%;
+    width: 60%;
+    border-radius: 10px;
+}
+.b2{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* text-align: left; */
+}
+.b2 strong{
+    font-family: 'Ysabeau SC', sans-serif;
+}
+.b2 p{
+    text-align: justify;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Brygada 1918', serif;
+
+}
